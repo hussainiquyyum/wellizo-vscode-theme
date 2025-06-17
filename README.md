@@ -2,7 +2,7 @@
 
 A modern VS Code theme featuring the Wellizo design system with teal primary and orange accents. Offers both light and dark variants optimized for readability and visual comfort. Perfect for developers who appreciate clean, professional aesthetics with a touch of warmth.
 
-![Wellizo Theme Preview](https://raw.githubusercontent.com/Syed-Hussain/wellizo-vscode-theme/main/images/preview.png)
+![Wellizo Logo](https://wellizo.app/assets/images/logo-light.png)
 
 ## Features
 
