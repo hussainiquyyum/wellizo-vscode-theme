@@ -4,12 +4,42 @@
     "description": "A modern VS Code theme featuring the Wellizo design system with teal primary and orange accents. Offers both light and dark variants optimized for readability and visual comfort. Perfect for developers who appreciate clean, professional aesthetics with a touch of warmth.",
     "version": "1.1.0",
     "publisher": "Syed-Hussain",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hussainiquyyum/wellizo-vscode-theme"
+    },
+    "bugs": {
+      "url": "https://github.com/hussainiquyyum/wellizo-vscode-theme/issues"
+    },
+    "homepage": "https://github.com/hussainiquyyum/wellizo-vscode-theme#readme",
     "engines": {
       "vscode": "^1.70.0"
     },
     "categories": [
       "Themes"
     ],
+    "keywords": [
+      "theme",
+      "wellizo",
+      "dark",
+      "light",
+      "teal",
+      "orange"
+    ],
+    "icon": "images/icon.png",
+    "galleryBanner": {
+      "color": "#0C1210",
+      "theme": "dark"
+    },
+    "scripts": {
+      "build": "vsce package",
+      "clean": "rimraf *.vsix",
+      "prebuild": "npm run clean"
+    },
+    "devDependencies": {
+      "@vscode/vsce": "^2.24.0",
+      "rimraf": "^5.0.5"
+    },
     "contributes": {
       "themes": [
         {
